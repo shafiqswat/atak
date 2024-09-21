@@ -19,7 +19,7 @@ const ProductSection = () => {
       </div>
       <div className='md:px-48 lg:flex gap-4 px-10'>
         <ProductCard
-          IconPath='./images/hardwareIcon.png'
+          IconPath='./images/HardwareIcon.png'
           HeadingText='Hardware'
           ParaText='Purpose built edge servers, sensors, and communication platforms ensure
         reliable performance in adverse environments.'

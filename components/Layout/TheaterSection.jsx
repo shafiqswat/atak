@@ -20,9 +20,9 @@ const TheaterSection = () => {
       </div>
 
       {/* Theater, Cloud, Command Section */}
-      <div className='flex items-center justify-center mt-20 gap-0'>
+      <div className='flex items-center justify-center mt-20 gap-0 '>
         {/* Theater Block */}
-        <div className='text-center lg:w-1/4 w-full -mr-7'>
+        <div className='text-center lg:w-1/4 w-full -mr-7 relative z-50'>
           <img
             src='/images/theater.png'
             alt='Theater'
@@ -32,7 +32,7 @@ const TheaterSection = () => {
         </div>
 
         {/* Arrow between Theater and Cloud */}
-        <div className='lg:w-1/12 w-10 flex-shrink-0 sm:-mr-7'>
+        <div className='lg:w-1/12 w-10 flex-shrink-0 sm:-mr-7 '>
           <img
             src='/images/arrowRight.png'
             alt='Arrow Right'
@@ -41,7 +41,7 @@ const TheaterSection = () => {
         </div>
 
         {/* Cloud Block */}
-        <div className='text-center lg:w-1/4 hidden lg:block -mr-7'>
+        <div className='text-center lg:w-1/4 hidden lg:block -mr-7 relative z-50'>
           <img
             src='/images/cloud.png'
             alt='Cloud'

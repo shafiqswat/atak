@@ -16,18 +16,18 @@ import TrainingSection from "@/components/Layout/TrainingSection";
 
 const Home = () => {
   return (
-    <div className='bg-blue w-full relative overflow-x-hidden h-auto pb-32'>
-      {/* <div className='bg-[url("/images/globe.png")] bg-no-repeat bg-cover bg-[400px_-800px] relative z-30 min-h-[500px] sm:bg-[400px_-400px]'> */}
-      <Header />
-      <div className='text-white relative w-[5rem]'>
-        <img
-          src='./images/fixedScroll.png'
-          alt='fixedLine'
-          className='md:fixed left-9 top-[5rem] bottom-0 hidden lg:block h-[75%]'
-        />
+    <div className='bg-blue w-full relative overflow-x-hidden h-auto pb-32 -z-20'>
+      <div className='bg-[url("/images/globe.png")] bg-no-repeat bg-cover bg-[400px_-800px] z-50 relative  min-h-[500px] sm:bg-[400px_-400px]'>
+        <Header />
+        <div className='text-white relative w-[5rem]'>
+          <img
+            src='./images/fixedScroll.png'
+            alt='fixedLine'
+            className='md:fixed left-9 top-[5rem] bottom-0 hidden lg:block h-[75%]'
+          />
+        </div>
+        <HeroSection />
       </div>
-      <HeroSection />
-      {/* </div> */}
       <Services />
       <LeadingSection />
       <ProductSection />
