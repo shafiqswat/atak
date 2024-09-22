@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h1 className='text-3xl font-normal uppercase max-w-32'>
           Information Dominance
         </h1>
-        <p className='text-[1rem] font-light lg:text-[#9E9E9E] text-[#CECECE]  mt-12 max-w-56'>
+        <p className='text-[1rem] font-light lg:text-[#9E9E9E] text-[#fcfafa]  mt-12 max-w-56'>
           Theatre to command with TAK server utilization.
         </p>
         <CustomButton className='sm:px-[4.5rem] px-[2rem] py-3 rounded-full mt-3' />
