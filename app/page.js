@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       {/* Lower Sections */}
-      <div className='bg-blue pb-32 -mt-2 relative -z-10'>
+      <div className='bg-blue pb-32 -mt-2'>
         <LeadingSection />
         <ProductSection />
         <div id='hardware'>
