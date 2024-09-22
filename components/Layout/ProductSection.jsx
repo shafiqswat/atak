@@ -19,18 +19,18 @@ const ProductSection = () => {
       </div>
       <div className='md:px-48 lg:flex gap-4 px-10'>
         <ProductCard
-          IconPath='./images/HardwareIcon.png'
+          IconPath='/images/HardwareIcon.png'
           HeadingText='Hardware'
           ParaText='Purpose built edge servers, sensors, and communication platforms ensure
         reliable performance in adverse environments.'
         />
         <ProductCard
-          IconPath='./images/ServiceIcon.png'
+          IconPath='/images/ServiceIcon.png'
           HeadingText='Services & Support'
           ParaText="Expertise in cloud and on-premises hosting solutions, along with custom plugin development to enhance and tailor your system and team's capabilities."
         />
         <ProductCard
-          IconPath='./images/TrainingIcon.png'
+          IconPath='/images/TrainingIcon.png'
           HeadingText='Training'
           ParaText="Tailored training programs for both technical and non-technical staff, including private scripts, documentation, and 'Train the Trainer' sessions. "
         />

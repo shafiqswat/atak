@@ -28,7 +28,7 @@ const TrainingSection = () => {
         </div>
         <div className='lg:w-[50%] '>
           <img
-            src='images/training.png'
+            src='/images/training.png'
             alt='training'
             className='object-cover'
           />

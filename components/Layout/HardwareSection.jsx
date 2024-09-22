@@ -5,7 +5,7 @@ import Heading from "../Constants/Heading";
 
 const HardwareSection = () => {
   return (
-    <div className='lg:grid lg:grid-cols-12'>
+    <div className='lg:grid lg:grid-cols-12 mt-[2rem]'>
       <div className='md:ps-56 px-10 sm:pt-32 lg:col-span-6'>
         <Heading>Hardware</Heading>
         <p className='text-[#89C8E3] text-[11px] mt-2 mb-4 font-light'>
@@ -28,7 +28,7 @@ const HardwareSection = () => {
       </div>
       <div className='px-10 lg:col-span-6'>
         <img
-          src='images/jacket.png'
+          src='/images/jacket.png'
           alt='jacket'
           className='w-full h-auto object-cover'
         />

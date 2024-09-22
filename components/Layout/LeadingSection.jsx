@@ -5,10 +5,10 @@ import Heading from "../Constants/Heading";
 
 const LeadingSection = () => {
   return (
-    <div className='md:px-56 px-10 md:mt-20 sm:py-32'>
+    <div className='md:px-56 px-10 sm:py-32'>
       <div className='px-10'>
         <img
-          src='./images/smallGlobe.png'
+          src='/images/smallGlobe.png'
           alt='smallGlobe'
           className='block sm:hidden w-full h-auto'
         />

@@ -24,7 +24,7 @@ const FeatureSection = () => {
       </div>
       <div className='md:ps-56 md:pe-32 px-10 lg:col-span-6 '>
         <img
-          src='images/server.png'
+          src='/images/server.png'
           alt='jacket'
           className='w-[26rem] h-auto object-cover hidden lg:block mx-auto'
         />

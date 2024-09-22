@@ -7,10 +7,12 @@ const ServicesCard = ({
   titleText,
   ParaText,
   className,
+  cardClassName,
   children,
 }) => {
   return (
-    <div className='bg-[#010710] h-full  border-2 border-[#1F2B3D]  p-5 pb-0 rounded-xl mt-5'>
+    <div
+      className={`bg-[#010710] h-full  border-2 border-[#1F2B3D] p-10  md:p-5  rounded-xl mt-5 ${cardClassName}`}>
       {children}
       <p className='text-white text-[14px] font-medium'>{titleText}</p>
       <div className=''>
