@@ -29,7 +29,7 @@ const FeatureSection = () => {
           className='w-[26rem] h-auto object-cover hidden lg:block mx-auto'
         />
         <img
-          src='/images/server1.jpg'
+          src='/images/server1.png'
           alt='server'
           className='w-full h-auto object-cover lg:hidden block mt-20 '
         />
