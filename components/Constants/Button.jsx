@@ -6,7 +6,7 @@ const CustomButton = ({ className, onClick }) => {
   return (
     <button
       onClick={onClick}
-      className={`border py-0.5 rounded-xl px-8 text-sm font-medium ${className}`}>
+      className={`border py-0.5 rounded-xl px-8 text-sm font-medium cursor-pointer ${className}`}>
       Contact us
     </button>
   );
