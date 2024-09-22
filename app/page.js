@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className='w-full overflow-x-hidden h-auto'>
       {/* Top Section with Background */}
-      <div className='overflow-hidden lg:pb-80 min-h-screen bg-[url("/images/globe.png")] bg-no-repeat bg-cover bg-[-120px_-70px] lg:bg-[400px_-400px] bg-blue'>
+      <div className='overflow-hidden relative z-50 lg:pb-80 pb-10 lg:min-h-screen bg-[url("/images/globe.png")] bg-no-repeat bg-cover bg-[-120px_-70px] lg:bg-[400px_-400px] bg-blue'>
         {/* Background Overlay */}
         <div className='absolute inset-0 bg-black bg-opacity-50 z-10 lg:hidden block'></div>
 
@@ -38,15 +38,21 @@ const Home = () => {
       </div>
 
       {/* Lower Sections */}
-      <div className='bg-blue pb-32'>
+      <div className='bg-blue pb-32 -mt-2 absolute -z-10'>
         <LeadingSection />
         <ProductSection />
-        <HardwareSection />
+        <div id='hardware'>
+          <HardwareSection />
+        </div>
         <FeatureSection />
         <Enterprise />
         <TheaterSection />
-        <ServiceSection />
-        <TrainingSection />
+        <div id='services'>
+          <ServiceSection />
+        </div>
+        <div id='training'>
+          <TrainingSection />
+        </div>
       </div>
     </div>
   );

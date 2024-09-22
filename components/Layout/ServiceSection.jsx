@@ -5,7 +5,7 @@ import ServicesCard from "../Constants/ServicesCard";
 
 const ServiceSection = () => {
   return (
-    <section className='md:mt-48'>
+    <section className='md:mt-48 pt-2'>
       <h2 className='text-white text-center'>Our Services</h2>
       <div className='md:px-48 px-10'>
         <div className='lg:flex gap-5'>
